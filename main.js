@@ -42,7 +42,7 @@ router.all('/kisaki', async (req, res) => {
 
 router.all('/bochi', async (req, res) => {
   try {
-  json = JSON.parse(fs.readFileSync(__path + '/lib/bochijson').toString())
+  json = JSON.parse(fs.readFileSync(__path + '/lib/bochi.json').toString())
   random = json[Math.floor(Math.random() * json.length)]
   res.send({ status: 200, url: random })
   } catch (e) {
