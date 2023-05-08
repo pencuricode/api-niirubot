@@ -1,6 +1,6 @@
 # api-lolis
-Api Lolis With Javascript &amp; ExpressJs
+API Niiru-Bot With Javascript &amp; ExpressJs
 
 # Demo
 
-<a href="//lolis.clph.me">Click Here</a>
+<a href="api-niiru.vercel.app/">Click Here</a>
